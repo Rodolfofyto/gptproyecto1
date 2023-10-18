@@ -8,7 +8,8 @@
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background: #f0f0f0; /* Fondo gris claro */
+    background: #f0f0f0;
+    /* Fondo gris claro */
     color: #333;
     line-height: 1.6;
     margin: 0;
@@ -23,7 +24,7 @@ body {
 
 /* Encabezado */
 header {
-    background: #ff6b6b; /* Rojo claro */
+    background: url('llave.jpg') center/cover no-repeat;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -35,6 +36,7 @@ header h1 {
 
 header nav ul {
     list-style: none;
+    margin-left: 2%;
     display: flex;
     gap: 20px;
 }
@@ -46,20 +48,24 @@ header nav a {
 
 main {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Divide en dos columnas iguales */
-    grid-gap: 20px; /* Espacio entre las columnas y filas */
+    grid-template-columns: repeat(2, 1fr);
+    /* Divide en dos columnas iguales */
+    grid-gap: 20px;
+    /* Espacio entre las columnas y filas */
 }
 
 /* Artículos */
 article {
     background-color: #fff;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sutil sombra */
 }
 
 article h2 {
     font-size: 24px;
-    color: #ff6b6b; /* Rojo claro */
+    color: #ff6b6b;
+    /* Rojo claro */
 }
 
 article p {
@@ -73,7 +79,8 @@ article img {
 
 /* Enlaces */
 a {
-    color: #0078d4; /* Azul brillante */
+    color: #0078d4;
+    /* Azul brillante */
     text-decoration: none;
 }
 
@@ -96,7 +103,8 @@ footer {
     }
 
     main {
-        grid-template-columns: 2fr; /* Una sola columna en pantallas más pequeñas */
+        grid-template-columns: 1fr;
+        /* Una sola columna en pantallas más pequeñas */
     }
 
     article h2 {
